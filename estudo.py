@@ -116,3 +116,34 @@
 # print(random.randrange(101)) 
 # random.seed(1,101)
 # print(random.randrange(101)) 
+
+## ABS
+
+# print(abs(-50))
+# print(abs(50))
+
+## ROUND 2
+
+
+# print(round(3.5)) # 4
+# print(round(4.5)) # 4
+# sempre arredonda para o próximo valor par
+
+## OPERAÇÃO DE DIVISÃO
+
+print( 3 / 2)
+print( 3 // 2)
+
+## UTILIZANDO VARIOS ARQUIVOS
+# import arquivoA
+# import arquivoB
+
+# arquivoA.func_a()
+# arquivoB.func_b()
+
+
+## FUNÇÕES 
+
+def soma(num_a, num_b):
+    return num_a + num_b
+
