@@ -80,17 +80,39 @@
 # for tentativa in range(1, 11):
 #     print("{0}° - Tentativa de {0} de {1} ".format(tentativa, 10))
 
-print("R$ {:f}".format(1.59))
-print("R$ {:.2f}".format(1.59))
+# print("R$ {:f}".format(1.59))
+# print("R$ {:.2f}".format(1.59))
 
-print("R$ {:05.2f}".format(8.45))
-print("R$ {:06.2f}".format(8.45))
-print("R$ {:07.2f}".format(8.45))
-print("R$ {:05.2f}".format(18.45))
+# print("R$ {:05.2f}".format(8.45))
+# print("R$ {:06.2f}".format(8.45))
+# print("R$ {:07.2f}".format(8.45))
+# print("R$ {:05.2f}".format(18.45))
 
-print("R$ {:05d}".format(58))
-print("R$ {:05d}".format(457))
-print("R$ {:05d}".format(7894))
+# print("R$ {:05d}".format(58))
+# print("R$ {:05d}".format(457))
+# print("R$ {:05d}".format(7894))
 
-print("Data {:02d}/{:02d}/{:4d}".format(9,4,2018))
+# print("Data {:02d}/{:02d}/{:4d}".format(9,4,2018))
 
+## RANDOM / ROUND
+
+# import random
+
+# print(random.random())
+
+# numero_aleatorio = random.random() * 100
+
+# print(int(numero_aleatorio))
+# print(round(numero_aleatorio))
+
+## RANDRANGE / SEED
+
+# import random
+
+# print(random.randrange(1,101)) ## 1 e 100
+# print(random.randrange(101)) ## 0 e 100 
+
+# random.seed(1,101)
+# print(random.randrange(101)) 
+# random.seed(1,101)
+# print(random.randrange(101)) 
