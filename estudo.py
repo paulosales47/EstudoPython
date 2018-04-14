@@ -37,3 +37,18 @@
 
 # for numero in range(1, 10):
 #     print(numero)
+
+## INTERPOLAÇÃO DE STRING
+
+# lista_numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# for numero in lista_numeros:
+#     print("Numero {} de 10".format(numero))
+
+## RANGE 2
+
+for numero in range (0, 1000, 10):
+    print("Numero {} de 1000".format(numero))
+
+
+
