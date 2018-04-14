@@ -47,8 +47,50 @@
 
 ## RANGE 2
 
-for numero in range (0, 1000, 10):
-    print("Numero {} de 1000".format(numero))
+# for numero in range (0, 1000, 10):
+#     print("Numero {} de 1000".format(numero))
 
+## CONTINUE
 
+# for numero in range(1, 100):
+#     if(numero%2 == 0):
+#         continue
+#     elif(numero%3 == 0):
+#         continue
+#     elif(numero%5 == 0):
+#         continue
+#     elif(numero%7 == 0):
+#         continue
+
+#     print("Numero igual a {}".format(numero))
+
+## BREAK
+
+# for numero in range(1, 10):
+#     valor_informado = int(input("Informe um valor entre 1 e 10\n"))
+
+#     if(valor_informado > 10 or valor_informado < 1):
+#         print("O valor informado é invalido")
+#         break
+
+#     print("O numero informado é {}".format(valor_informado))
+
+## INTERPOLAÇÃO DE STRING 2
+
+# for tentativa in range(1, 11):
+#     print("{0}° - Tentativa de {0} de {1} ".format(tentativa, 10))
+
+print("R$ {:f}".format(1.59))
+print("R$ {:.2f}".format(1.59))
+
+print("R$ {:05.2f}".format(8.45))
+print("R$ {:06.2f}".format(8.45))
+print("R$ {:07.2f}".format(8.45))
+print("R$ {:05.2f}".format(18.45))
+
+print("R$ {:05d}".format(58))
+print("R$ {:05d}".format(457))
+print("R$ {:05d}".format(7894))
+
+print("Data {:02d}/{:02d}/{:4d}".format(9,4,2018))
 
