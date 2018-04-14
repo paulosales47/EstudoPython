@@ -1,11 +1,11 @@
-##
+## VARIÁVEIS / PRINT
 
 # dia=6
 # mes=4
 # ano=2018
 # print(dia, mes, ano, sep="/")
 
-##
+## TYPE
 
 # quantidade = 10
 # type(quantidade)
@@ -14,3 +14,26 @@
 # texto = "Aula 01"
 # type(texto)
 
+## IF / ELIF / ELSE
+
+# numero = 50
+
+# if(numero > 50):
+#     print("Numero maior que 50")
+# elif(numero < 50):
+#     print("Numero menor que 50")
+# else:
+#     print("Numero é igual a 50")
+
+## WHILE
+
+# numero = 0
+
+# while(numero < 100):
+#     print(numero)
+#     numero += 1
+
+## FOR / RANGE
+
+# for numero in range(1, 10):
+#     print(numero)
