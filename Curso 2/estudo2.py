@@ -77,8 +77,42 @@
 
 # SET
 
-numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+# numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
-numeros.add(10) # NÃO IRÁ ADICIONAR, POIS JÁ EXISTE
+# numeros.add(10) # NÃO IRÁ ADICIONAR, POIS JÁ EXISTE
 
-print(numeros)
+# print(numeros)
+
+# LIST DENTRO DE TUPLE
+
+# d1 = [1, "Seg"]
+# d2 = [2, "Ter"]
+# d3 = [3, "Qua"]
+
+# dias_semana = (d1, d2, d3)
+
+# print(dias_semana)
+
+
+# DICTIONARY
+
+# dias_semana = {1 : 'Seg', 2 : 'Ter', 3 : 'Qua'}
+
+# print(type(dias_semana))
+
+
+# LIST COMPREHENSION
+
+# palavra = "Paulo Henrique"
+
+# list_palavra = ["_" for letra in palavra]
+
+# print(list_palavra)
+
+list_numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+list_numero_quadrado = [pow(numero,2) for numero in list_numero]
+
+print(list_numero)
+print(list_numero_quadrado)
+
