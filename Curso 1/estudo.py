@@ -144,6 +144,6 @@ print( 3 // 2) # int
 
 ## FUNÇÕES 
 
-def soma(num_a, num_b):
-    return num_a + num_b
+# def soma(num_a, num_b):
+#     return num_a + num_b
 
