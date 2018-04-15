@@ -131,8 +131,8 @@
 
 ## OPERAÇÃO DE DIVISÃO
 
-print( 3 / 2)
-print( 3 // 2)
+print( 3 / 2) # float
+print( 3 // 2) # int
 
 ## UTILIZANDO VARIOS ARQUIVOS
 # import arquivoA
