@@ -25,10 +25,29 @@
 
 # FOR STR
 
-palavra = "Paulo Henrique"
+# palavra = "Paulo Henrique"
 
-for letra in palavra:
-    print(letra)
+# for letra in palavra:
+#     print(letra)
+
+# CAPITALIZE
+
+# print("paulo".capitalize()) #"Paulo"
+
+# ENDSWITH
+
+# print("teste".endswith("te")) # true
+# print("teste".endswith("ta")) # false
+
+#UPPER / LOWER
+
+# print("teste".upper())
+# print("TESTE2".lower())
+
+# STRIP
+
+print("           A              ".strip())
+
 
 
 
