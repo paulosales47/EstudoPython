@@ -46,9 +46,39 @@
 
 # STRIP
 
-print("           A              ".strip())
+# print("           A              ".strip())
+
+# LIST
+
+# lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 512]
+
+# print(type(lista))
+# print(4 in lista) # true
+# print(max(lista))
+# print(min(lista))
+# print(len(lista))
 
 
+# TUPLE
 
+# dias_semana = ('seg', 'ter', 'qua', 'qui', 'sex', 'sab', 'dom') #IMUTÁVEL
 
+# print(type(dias_semana))
 
+# LIST PARA TUPLE
+
+# numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# vat_tuple = tuple(numeros)
+
+# TUPLE PARA LIST
+
+# numeros = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# vat_list = list(numeros)
+
+# SET
+
+numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+numeros.add(10) # NÃO IRÁ ADICIONAR, POIS JÁ EXISTE
+
+print(numeros)
