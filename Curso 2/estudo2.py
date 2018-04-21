@@ -135,3 +135,26 @@
 # script.close()
 
 
+#RANDOMRANGE
+# import random
+
+# arquivo = open("palavras.txt", "r")
+# itens = []
+
+# for linha in arquivo:
+#     linha = linha.strip()
+#     itens.append(linha)
+
+# arquivo.close()
+
+# numero = random.randrange(0, len(itens))
+# item_aleatorio = itens[numero]
+
+# print(item_aleatorio)
+
+# PARAMETRO OPCIONAL
+
+def mutiplica(num_a = 0, num_b = 0):
+    return num_a * num_b
+
+mutiplica()
