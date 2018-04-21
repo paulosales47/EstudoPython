@@ -109,10 +109,29 @@
 
 # print(list_palavra)
 
-list_numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list_numero = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-list_numero_quadrado = [pow(numero,2) for numero in list_numero]
+# list_numero_quadrado = [pow(numero,2) for numero in list_numero]
 
-print(list_numero)
-print(list_numero_quadrado)
+# print(list_numero)
+# print(list_numero_quadrado)
+
+# ARQUIVOS ESCRITA
+
+# script = open("palavras.txt", "w")
+# script.write("Curso Python\n")
+# name = script.name
+# script.close()
+
+#ARQUIVOS LEITURA
+
+# script = open("palavras.txt", "r")
+
+# print(script.read())
+
+# for linha in script:
+#     print(linha, end="")
+
+# script.close()
+
 
