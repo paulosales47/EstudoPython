@@ -154,7 +154,7 @@
 
 # PARAMETRO OPCIONAL
 
-def mutiplica(num_a = 0, num_b = 0):
-    return num_a * num_b
+# def mutiplica(num_a = 0, num_b = 0):
+#     return num_a * num_b
 
-mutiplica()
+# mutiplica()
