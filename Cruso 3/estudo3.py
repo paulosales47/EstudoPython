@@ -70,9 +70,17 @@ from conta import Conta
 
 # MÉTODO PRIVADO
 
-conta7 = Conta(7, "CONTA 7", 4500.0, 8000.0)
+# conta7 = Conta(7, "CONTA 7", 4500.0, 8000.0)
 
-print(conta7._Conta__pode_sacar(9000))
+# print(conta7._Conta__pode_sacar(9000))
+
+# MÉTODO ESTATICO
+
+# print(Conta.codigo_banco())
+
+# ATRIBUTO ESTATICO
+
+print(Conta.NOME_BANCO)
 
 
 

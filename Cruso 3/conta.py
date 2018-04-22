@@ -1,5 +1,7 @@
 class Conta:
     
+    NOME_BANCO = 'BANCO'
+
     def __init__(self, numero, titular, saldo, limite= 1000.0):
         print("Construindo objeto.. {}".format(self))
         self.__numero = numero
@@ -23,6 +25,10 @@ class Conta:
     def __pode_sacar(self, valor_saque):
         valor_disponivel = self.__saldo + self.__limite
         return valor_disponivel >= valor_saque
+
+    @staticmethod
+    def codigo_banco():
+        return "001"
 
     @property
     def numero(self):
