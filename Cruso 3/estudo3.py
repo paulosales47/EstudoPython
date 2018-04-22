@@ -33,3 +33,19 @@ from conta import Conta
 # data = Data(1, 4, 2018)
 # data.formatada()
 
+# ENCAPSULAMENTO
+
+# conta4 = Conta(4, "CONTA 4", 500.0, 1500.0)
+
+# print(conta4._Conta__limite)
+
+# conta4._Conta__limite = 1000
+
+# # adiciona novo atributo a instancia
+# conta4.novo_atributo = 50
+
+# print(conta4._Conta__limite)
+
+
+
+
