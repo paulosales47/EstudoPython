@@ -20,6 +20,10 @@ class Conta:
         self.saca(valor)
         destino.deposita(valor)
 
+    def __pode_sacar(self, valor_saque):
+        valor_disponivel = self.__saldo + self.__limite
+        return valor_disponivel >= valor_saque
+
     @property
     def numero(self):
         return self.__numero

@@ -57,15 +57,22 @@ from conta import Conta
 
 # ANOTAÇÕES PROPERTY E SETTER
 
-from clientes import Cliente
+# from clientes import Cliente
 
-cliente = Cliente("Paulo")
+# cliente = Cliente("Paulo")
 
-print(cliente.nome)
+# print(cliente.nome)
 
-cliente.nome = "Paulo Henrique"
+# cliente.nome = "Paulo Henrique"
 
-print(cliente.nome)
+# print(cliente.nome)
+
+
+# MÉTODO PRIVADO
+
+conta7 = Conta(7, "CONTA 7", 4500.0, 8000.0)
+
+print(conta7._Conta__pode_sacar(9000))
 
 
 
