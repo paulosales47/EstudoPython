@@ -55,8 +55,17 @@ from conta import Conta
 # conta5.extrato()
 # conta6.extrato()
 
+# ANOTAÇÕES PROPERTY E SETTER
 
+from clientes import Cliente
 
+cliente = Cliente("Paulo")
+
+print(cliente.nome)
+
+cliente.nome = "Paulo Henrique"
+
+print(cliente.nome)
 
 
 
