@@ -46,6 +46,17 @@ from conta import Conta
 
 # print(conta4._Conta__limite)
 
+# REFERENCIA COMO PARAMETRO
+
+# conta5 = Conta(5, "CONTA 5", 500.0, 1500.0)
+# conta6 = Conta(6, "CONTA 6", 1800.0, 7500.0)
+
+# conta6.transfere(350, conta5)
+# conta5.extrato()
+# conta6.extrato()
+
+
+
 
 
 
